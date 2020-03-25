@@ -1,0 +1,42 @@
+/* .main {
+  height: 98%
+}
+
+#Carousel-container {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+
+#Summary-container {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+} */
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+#main {
+  height: 100%;
+}
+#Carousel-container {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+#Spec-container {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
