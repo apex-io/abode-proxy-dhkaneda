@@ -1,26 +1,9 @@
-/* .main {
-  height: 98%
-}
-
-#Carousel-container {
-  float: left;
-  width: 50%;
-  height: 100%;
-  overflow: auto;
-}
-
-#Summary-container {
-  float: left;
-  width: 50%;
-  height: 100%;
-  overflow: auto;
-} */
-
 html, body {
   height: 100%;
   overflow: hidden;
   margin: 0;
 }
+
 #main {
   height: 100%;
 }
@@ -36,7 +19,7 @@ html, body {
   float: left;
   width: 50%;
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
   box-sizing: border-box;
   padding: 0.5em;
 }
