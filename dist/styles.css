@@ -1,25 +1,48 @@
-html, body {
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
+body {
+  position: absolute;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }
 
 #main {
+  display: flex;
   height: 100%;
+  background-color: white;
+  max-width: 1050px;
+  box-shadow: 1px 10px 30px 10px rgba(0, 0, 0, 0.05);
 }
+
 #Carousel-container {
-  float: left;
-  width: 50%;
-  height: 100%;
-  overflow: auto;
+  width: 566px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
   box-sizing: border-box;
-  padding: 0.5em;
 }
-#Spec-container {
-  float: left;
-  width: 50%;
-  height: 100%;
-  overflow: scroll;
+
+#Spec-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+#Summary {
+  padding-right: 25px;
   box-sizing: border-box;
-  padding: 0.5em;
+  overflow-x: hidden;
+  padding-bottom: 16px;
+  border-bottom: 1px solid lightgray;
+}
+
+#Spec-scroll {
+  position: relative;
+  width: 500px;
+  height: 80vh;
+  padding-left: 16px;
+  padding-right: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
 }
