@@ -1,5 +1,5 @@
+/* eslint-disable no-console */
 const express = require('express');
-// const proxy = require('express-http-proxy');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
